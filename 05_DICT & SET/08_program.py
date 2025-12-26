@@ -1,0 +1,21 @@
+#WAP to input eight number from the users and display all the unique number (once).
+
+num = set()
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+enter_value = input("Enter a number :")
+num.add(enter_value)
+
+print(num)

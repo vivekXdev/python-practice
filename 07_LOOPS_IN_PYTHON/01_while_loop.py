@@ -1,0 +1,16 @@
+#WAP to print 1 to 9
+i = 1
+while i < 10 :
+    print(i)
+    i +=1
+
+#output
+#1
+#2
+#3
+#4
+#5
+#6
+#7
+#8
+#9

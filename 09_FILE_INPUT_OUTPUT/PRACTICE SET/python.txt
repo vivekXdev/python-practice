@@ -1,0 +1,29 @@
+🧠 How this works
+
+Python cannot directly rename a file without modules
+
+So we:
+
+Read data from old file
+
+Create a new file with required name
+
+Copy content into it
+
+📌 Effect:
+Old file content → renamed_by_python.txt
+
+⚠ Important Note (for exams)
+
+👉 This method copies data, it does not delete old file
+(Deleting needs os.remove() which is a module)
+
+✔ Exam-ready one-line explanation
+
+Since renaming a file directly requires modules, the file is renamed by copying its contents into a new file with the required name without using any module.
+
+If you want:
+
+version with module
+
+or delete old file also
