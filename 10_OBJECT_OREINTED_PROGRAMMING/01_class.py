@@ -4,8 +4,8 @@ class Employee:
 
 
 harry = Employee()
-harry.name = "harry"           #name is object attribut
-print(harry.lang)              #lang ans salary are class atrribut
+harry.name = "harry"           #name is instance(object) attribut
+print(harry.lang)              #lang and salary are class atrribut
 print(harry.salary)
 
 
